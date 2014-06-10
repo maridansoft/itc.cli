@@ -654,6 +654,7 @@ class ITCApplication(ITCImageUploader):
         if isUpdate:
             formData['encryptionHasChanged'] = 'false'
             formData['hasLegalIssues'] = 'false'
+            formData['booleanRadioButton']=false
         else:
             formData['firstQuestionRadio'] = 'false'
             formData['secondQuestionRadio'] = 'false'
